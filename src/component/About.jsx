@@ -1,12 +1,16 @@
 
+import about from "../assets/about.webp"
+import about2 from "../assets/aout-2.webp"
+import lowBg from "../assets/low.svg";
+
 
 
 function About(){
 
     return(
- <div>
-  <div className="bg-[url('../../repo/low.svg')]  bg-no-repeat   w-[full] h-[full] py-36 " >
- <h1 className="flex   justify-center  text-6xl text-white font-serif"> 
+ <div className="">
+<div style={{ backgroundImage: `url(${lowBg})` }} className="bg-no-repeat w-full h-full py-36">
+ <h1 className="flex   justify-center text-white text-6xl  font-serif"> 
     We're here to turn your supply 
     <br />
    ..... chain into a superpower
@@ -18,7 +22,7 @@ function About(){
    automating demand / inventory tasks, generating insights, and helping your business expand.
  </p>
   <div  >
-    <img src="../../repo/about.webp" alt="" height={823} width={920}  className=" rounded-lg flex justify-center mx-auto py-12 " />
+    <img src={about} alt="" height={823} width={920}  className=" rounded-lg flex justify-center mx-auto py-12 " />
   </div>
   </div>
   
@@ -27,7 +31,7 @@ function About(){
     </p>
     <div className="flex mx-auto justify-center gap-20   py-16">
     <div>
-        <img src="../../repo/aout-2.webp" alt="" className="w-[500px] h-[500px] rounded-lg" />
+        <img src={about2} alt="" className="w-[500px] h-[500px] rounded-lg" />
     </div>
     <div className="h=[520px] w-[720px] py-9">
         <h2 className="font-bold text-4xl font-sans">

@@ -1,6 +1,6 @@
 
 
-
+import logo from "../assets/mian logo.png"
 
 function Login(){
 
@@ -11,7 +11,7 @@ function Login(){
        
         <div className="flex flex-col mx-auto justify-center items-center bg-[#f1E9fc] w-screen   h-screen overflow-x-hidden">
             <div  className="flex">
-                <img src="../../repo/mian logo.png" alt="" className="h-[75px] w-[75px] rounded-full" />
+                <img src={logo} alt="" className="h-[75px] w-[75px] rounded-full" />
                 <h1 className="text-6xl">
                     CleverBook</h1>
             </div>

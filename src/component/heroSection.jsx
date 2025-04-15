@@ -1,4 +1,11 @@
 
+import letter from "../assets/letter.svg"
+import heroSection from "../assets/herosection.svg"
+import checkList from "../assets/checklist.svg"
+import bag from "../assets/bag.svg"
+import house from "../assets/house.svg"
+import stock from "../assets/stock.svg"
+
 
 function Body(){
     return(
@@ -24,11 +31,11 @@ function Body(){
      <button className="mt-14 hover  hover:bg-purple-800 hover:ease-in duration-300 rounded-full bg-green-300 w-[200px] h-[45px] justify-center text-black font-bold"> 
          Get started with Crest
          </button>
-         <img src="../../repo/letter.svg" alt="" className="mt-16" />
+         <img src={letter} alt="" className="mt-16" />
      </div>
      </div>
      <div className="w-[616px] h-[520px]">
-         <img src="../../repo/herosection.svg" alt=""  className="h-[full] w-[full]" />
+         <img src={heroSection} alt=""  className="h-[full] w-[full]" />
          {/* <img src="../../repo/side.svg" alt="" /> */}
      </div>
  </div>
@@ -46,7 +53,7 @@ function Body(){
                 <div className=" flex gap-10 py-10 justify-center">
 
                 <div className="bg-[#f1E9fc] rounded-xl py-6   w-[290px] h-[290px]">
-                    <img src="../../repo/checklist.svg" alt="" className="h-[60px]  ml-4 mt-3" />
+                    <img src={checkList} alt="" className="h-[60px]  ml-4 mt-3" />
                 <h2 className="font-semibold texl-xl ml-4 py-3 text-[21px]">  
                   What to order
                   </h2>
@@ -57,7 +64,7 @@ function Body(){
                 </div>
 
                 <div className="bg-[#f1E9fc] rounded-xl py-6   w-[290px] h-[290px]">
-                    <img src="../../repo/bag.svg" alt="" className="h-[55px]  ml-4 mt-3" />
+                    <img src={bag} alt="" className="h-[55px]  ml-4 mt-3" />
                     <h2 className="font-semibold texl-xl ml-4 py-3 text-[21px]">
                     When to order
                     </h2>
@@ -67,7 +74,7 @@ function Body(){
                 </div>
 
                 <div className="bg-[#f1E9fc] rounded-xl py-6   w-[290px] h-[290px]">
-                    <img src="../../repo/stock.svg" alt="" className="h-[55px]  ml-4 mt-3" />
+                    <img src={stock} alt="" className="h-[55px]  ml-4 mt-3" />
                     <h2 className="font-semibold texl-xl ml-4 py-3 text-[21px]" >
                     How much to stock
                     </h2>
@@ -76,7 +83,7 @@ function Body(){
                     </p>
                 </div>
                 <div className="bg-[#f1E9fc] rounded-xl py-6   w-[290px] h-[290px]">
-                    <img src="../../repo/house.svg" alt="" className="h-[55px]  ml-4 mt-3" />
+                    <img src={house} alt="" className="h-[55px]  ml-4 mt-3" />
                     <h2 className="font-semibold texl-xl ml-4 py-3 text-[21px]" >
                     Where to place
                     </h2>

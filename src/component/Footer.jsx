@@ -1,6 +1,7 @@
 
 
-
+import upArrow from "../assets/up-arrow.png"
+import clever_book from "../assets/CleverBook_transparent.png"
 
 function Footer(){
     return(
@@ -8,7 +9,7 @@ function Footer(){
                <div className="flex  justify-evenly ">
                <div className="w-[450px]  ">
                     <h1 >
-                        <img src="../../repo/CleverBook_transparent.png" alt=""  className="h-[450px]  w-[450px] " />
+                        <img src={clever_book} alt=""  className="h-[450px]  w-[450px] " />
                     </h1>
                 
                 
@@ -55,7 +56,7 @@ function Footer(){
                <div className="mb-10 bg-[#151218] " >
                 <button className=" transition  duration-300 px-[720px] ">
                     <a href="#vishnu"> 
-                   <img src="../../repo/up-arrow.png" alt=""className="h-[45px] w-[45px]  border-r-4     border-r-gray-300 rounded-full    " />
+                   <img src={upArrow} alt=""className="h-[45px] w-[45px]  border-r-4     border-r-gray-300 rounded-full    " />
                     </a>
                 </button>
                </div>

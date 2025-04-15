@@ -1,11 +1,11 @@
-
+import cleverBook from "../assets/CleverBook_transparent.png"
 import { NavLink } from "react-router-dom";
 import Profile from "./Profile";
 function Nav(){
     return(
         <div className="  mx-auto flex  gap-[7rem]  bg-[#151218] text-white h-[70px] w-[full]  justify-evenly ">
           <div className="mt-3 text-3xl flex">
-            <img src="../../repo/CleverBook_transparent.png" alt="" height={250}  width={250} className=" object-cover" />
+            <img src={cleverBook} alt="" height={250}  width={250} className=" object-cover" />
      
           </div>
           <div className="flex mt-6 ">
